@@ -1,7 +1,48 @@
 .background-img {
+    position: relative;
     background-color: whitesmoke;
     background-image: url("https://cdn.pixabay.com/photo/2015/06/08/15/25/couple-802062_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+
+.save-the-date {
+    position: absolute;
+    top: 10%;
+    left: 53%;
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.info {
+    margin-top: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.date {
+    margin-top: 20px;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.name {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+    color: white;
 }
