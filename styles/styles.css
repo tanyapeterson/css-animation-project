@@ -1,0 +1,7 @@
+.background-img {
+    background-color: whitesmoke;
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/08/15/25/couple-802062_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
