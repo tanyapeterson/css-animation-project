@@ -40,9 +40,33 @@
 
 .name {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 55%;
     font-family: 'Corinthia', cursive;
     font-size: 50px;
     color: white;
+}
+
+
+.more-info-btn {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    background-color: #ccbbaa;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.more-info-btn:hover {
+    background-color: #f26b8a;
+    transition: all 0.9s;
+    transition-delay: 0.5s;
+
 }
