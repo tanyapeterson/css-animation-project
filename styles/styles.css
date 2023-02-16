@@ -1,5 +1,5 @@
 .background-img {
-    position: relative;
+    display: flex;
     background-color: whitesmoke;
     background-image: url("https://cdn.pixabay.com/photo/2015/06/08/15/25/couple-802062_1280.jpg");
     background-repeat: no-repeat;
@@ -7,14 +7,35 @@
     height: 100vh;
 }
 
+@keyframes sunset {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: #EDDBC7;
+    }
+
+    50% {
+        color: #A7727D;
+    }
+
+    100% {
+        color: #820000;
+    }
+}
+
 
 .save-the-date {
-    position: absolute;
-    top: 10%;
-    left: 53%;
     font-family: 'Corinthia', cursive;
     font-size: 50px;
     color: white;
+    animation-name: sunset;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 10%;
+    left: 53%;
 }
 
 .info {
@@ -48,6 +69,12 @@
 }
 
 
+.fa-solid {
+    color: #A7727D;
+    margin-left: 10px;
+}
+
+
 .more-info-btn {
     position: absolute;
     top: 80%;
@@ -56,7 +83,7 @@
     border: none;
     border-radius: 5px;
     color: black;
-    padding: 12px 16px;
+    padding: 12px 20px;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -65,7 +92,7 @@
 
 
 .more-info-btn:hover {
-    background-color: #f26b8a;
+    background-color: #820000;
     transition: all 0.9s;
     transition-delay: 0.5s;
 
