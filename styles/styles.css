@@ -9,19 +9,19 @@
 
 @keyframes sunset {
     0% {
-        color: white;
+        color: #820000;
     }
 
     25% {
-        color: #EDDBC7;
+        color: #a7727a;
     }
 
     50% {
-        color: #A7727D;
+        color: #820000;
     }
 
     100% {
-        color: #820000;
+        color: #a7727a;
     }
 }
 
@@ -34,50 +34,49 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 53%;
 }
 
 .info {
     margin-top: 20px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    color: white;
+    color: #820000;
 }
 
 .date {
-    margin-top: 20px;
     position: absolute;
     top: 45%;
     left: 60%;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: white;
+    color: #820000;
 }
 
 
 .name {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 55%;
     font-family: 'Corinthia', cursive;
     font-size: 50px;
-    color: white;
+    color: #820000;
 }
 
 
 .fa-solid {
-    color: #A7727D;
+    color: #820000;
     margin-left: 10px;
 }
 
 
 .more-info-btn {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 65%;
     background-color: #ccbbaa;
     border: none;
